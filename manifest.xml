@@ -6,7 +6,6 @@
 
   <!-- Additional -->
   <project name="LineageOS/android_external_bson" path="external/bson" remote="track" />
-  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="track" />
   <project name="LineageOS/android_system_qcom" path="system/qcom" remote="track" />
   <project name="schizo-space/android_device_packages_extras" path="device/packages/extras" remote="track" revision="jeter" />
   <project name="schizo-space/android_vendor_signing_keys" path="vendor/lineage-priv/keys" remote="track" revision="stable" />
