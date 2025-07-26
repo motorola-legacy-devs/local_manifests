@@ -1,5 +1,5 @@
 Sync the manifest:
 
 ```bash
-git clone https://github.com/schizo-space/local_manifests -b lineage-17.1-jeter .repo/local_manifests
+git clone https://github.com/motorola-legacy/local_manifests -b lineage-17.1-jeter .repo/local_manifests
 ```
