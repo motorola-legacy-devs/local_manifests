@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Track -->
+  <remote name="track" fetch="https://github.com" revision="lineage-18.1" />
+
+  <!-- Additional -->
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="track" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="track" />
+  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="track" />
+  <project name="motorola-legacy/android_device_motorola_extras" path="device/motorola/extras" remote="track" revision="master" />
+  <project name="motorola-legacy/android_vendor_signing_keys" path="vendor/lineage-priv/keys" remote="track" revision="revived" />
+
+  <!--Trees-->
+  <project name="motorola-legacy/android_device_motorola_jeter" path="device/motorola/jeter" remote="track" />
+  <project name="motorola-legacy/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="track" clone-depth="1" />
+  <project name="motorola-legacy/device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="track" revision="crdroid-11.0" />
+  <project name="motorola-legacy/proprietary_vendor_motorola_jeter" path="vendor/motorola/jeter" remote="track" />
+  <project name="motorola-legacy/vendor_motorola_msm8937-common" path="vendor/motorola/msm8937-common" remote="track" />
+
+  <!-- Remove HALs -->
+  <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
+  <remove-project name="crdroidandroid/android_hardware_qcom_display" />
+  <remove-project name="crdroidandroid/android_hardware_qcom_media" />
+
+  <!-- Track new HALs -->
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8996" />
+  <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8996" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8996" />
+</manifest>
