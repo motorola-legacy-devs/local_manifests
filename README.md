@@ -14,5 +14,5 @@ mkdir .repo/local_manifests && curl https://raw.githubusercontent.com/motorola-l
 ```
 
 After that do 
-```repo sync --force-sync --no-tags --no-clone-bundle -c```
+```repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags```
 to get both the rom and device sources.
