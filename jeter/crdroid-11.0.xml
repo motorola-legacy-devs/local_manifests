@@ -10,6 +10,7 @@
   <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="track" />
   <project name="motorola-legacy/android_device_motorola_extras" path="device/motorola/extras" remote="track" revision="master" />
   <project name="motorola-legacy/android_vendor_signing_keys" path="vendor/lineage-priv/keys" remote="track" revision="revived" />
+  <project name="xyz-sundram/platform_vendor_lawnchair" path="vendor/lawnchair" revision="11" />
 
   <!--Trees-->
   <project name="motorola-legacy/android_device_motorola_jeter" path="device/motorola/jeter" remote="track" />
