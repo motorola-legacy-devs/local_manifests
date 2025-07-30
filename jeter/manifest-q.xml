@@ -2,11 +2,11 @@
 <manifest>
 
   <!-- Track -->
-  <remote name="track" fetch="https://github.com" revision="lineage-17.1" />
+  <remote name="track" fetch="https://github.com" revision="q-10.0" />
 
   <!-- Additional -->
-  <project name="LineageOS/android_external_bson" path="external/bson" remote="track" />
-  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="track" />
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="track" revision="lineage-17.1" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="track" revision="lineage-17.1" />
   <project name="motorola-legacy/android_device_motorola_extras" path="device/motorola/extras" remote="track" revision="master" />
   <project name="motorola-legacy/android_vendor_signing_keys" path="vendor/lineage-priv/keys" remote="track" revision="revived" />
 
