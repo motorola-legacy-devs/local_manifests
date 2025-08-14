@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Track -->
-  <remote name="track" fetch="https://github.com" revision="q-10.0" />
+  <remote  name="lineageos"
+           fetch="https://github.com/LineageOS/"
+           revision="lineage-17.1" />
+
+  <remote  name="motolegacy"
+           fetch="https://github.com/motorola-legacy-devs/"
+           revision="lineage-17.1" />
 
   <!-- Additional -->
-  <project name="LineageOS/android_external_bson" path="external/bson" remote="track" revision="lineage-17.1" />
-  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="track" revision="lineage-17.1" />
-  <project name="motorola-legacy/android_device_motorola_extras" path="device/motorola/extras" remote="track" revision="master" />
-  <project name="motorola-legacy/android_vendor_signing_keys" path="vendor/lineage-priv/keys" remote="track" revision="revived" />
+  <project path="external/bson" name="android_external_bson" remote="lineageos" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="lineageos" />
+  <project path="system/qcom" name="android_system_qcom" remote="lineageos" />
+  <project path="vendor/lineage-priv/keys" name="android_vendor_signing_keys" revision="revived" remote="motolegacy" />
 
   <!--Trees-->
-  <project name="motorola-legacy/android_device_motorola_jeter" path="device/motorola/jeter" remote="track" />
-  <project name="motorola-legacy/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="track" clone-depth="1" />
-  <project name="motorola-legacy/device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="track" />
-  <project name="motorola-legacy/proprietary_vendor_motorola_jeter" path="vendor/motorola/jeter" remote="track" />
-  <project name="motorola-legacy/vendor_motorola_msm8937-common" path="vendor/motorola/msm8937-common" remote="track" />
+  <project path="device/motorola/jeter" name="android_device_motorola_jeter" remote="motolegacy" />
+  <project path="kernel/motorola/jeter" name="android_kernel_motorola_msm89xx" revision="lineage-17.1-jeter" remote="motolegacy" />
+  <project path="vendor/motorola/jeter" name="proprietary_vendor_motorola_jeter" remote="motolegacy" />
 
 </manifest>
