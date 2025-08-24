@@ -13,6 +13,7 @@
            revision="lineage-18.1" />
 
   <!-- Additional -->
+  <project path="patches" name="android_patches" revision="master" remote="motolegacy" />
   <project path="external/bson" name="android_external_bson" remote="lineageos" />
   <project path="hardware/motorola" name="android_hardware_motorola" remote="lineageos" />
   <project path="system/qcom" name="android_system_qcom" remote="lineageos" />
