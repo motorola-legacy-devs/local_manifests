@@ -9,12 +9,22 @@
            fetch="https://github.com/motorola-legacy-devs/"
            revision="lineage-18.1" />
 
+  <remote  name="proton" 
+           fetch="https://github.com/ProtonAOSP/"
+           revision="rvc" />
+
   <!-- Additional -->
   <project path="patches" name="android_patches" revision="master" remote="motolegacy" />
   <project path="external/bson" name="android_external_bson" remote="lineageos" />
   <project path="hardware/motorola" name="android_hardware_motorola" remote="lineageos" />
   <project path="system/qcom" name="android_system_qcom" remote="lineageos" />
   <project path="vendor/lineage-priv/keys" name="android_vendor_signing_keys" revision="revived" remote="motolegacy" />
+
+  <!-- ProtonAOSP -->
+  <remove-project name="LineageOS/android_external_zlib" />
+  <project path="external/zlib-ng" name="android_external_zlib-ng" remote="proton" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="proton" />
 
   <!--Trees-->
   <project path="device/motorola/jeter" name="android_device_motorola_jeter" remote="motolegacy" />
