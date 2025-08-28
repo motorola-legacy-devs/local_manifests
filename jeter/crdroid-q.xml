@@ -22,7 +22,7 @@
 
   <!--Trees-->
   <project path="device/motorola/jeter" name="android_device_motorola_jeter" revision="crdroid-10.0" remote="motolegacy" />
-  <project path="kernel/motorola/jeter" name="android_kernel_motorola_msm89xx" revision="lineage-17.1-jeter" remote="motolegacy" />
+  <project path="kernel/motorola/jeter" name="android_kernel_motorola_jeter" remote="motolegacy" />
   <project path="vendor/motorola/jeter" name="proprietary_vendor_motorola_jeter" remote="motolegacy" />
 
 </manifest>

@@ -18,7 +18,7 @@
 
   <!--Trees-->
   <project path="device/motorola/deen" name="android_device_motorola_deen" remote="motolegacy" />
-  <project path="kernel/motorola/deen" name="android_kernel_motorola_msm89xx" revision="lineage-18.1-deen" remote="motolegacy" />
+  <project path="kernel/motorola/deen" name="android_kernel_motorola_deen" remote="motolegacy" />
   <project path="vendor/motorola/deen" name="proprietary_vendor_motorola_deen" remote="motolegacy" />
 
 </manifest>
