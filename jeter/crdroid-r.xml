@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="addons"
-           fetch="https://github.com/" />
-
   <remote  name="lineageos"
            fetch="https://github.com/LineageOS/"
            revision="lineage-18.1" />
@@ -21,7 +18,6 @@
   <project path="external/bson" name="android_external_bson" remote="lineageos" />
   <project path="hardware/motorola" name="android_hardware_motorola" remote="lineageos" />
   <project path="system/qcom" name="android_system_qcom" remote="lineageos" />
-  <project path="vendor/lawnchair" name="xyz-sundram/platform_vendor_lawnchair" revision="11" remote="addons" />
   <project path="vendor/lineage-priv/keys" name="android_vendor_signing_keys" revision="revived" remote="motolegacy" />
 
   <!-- ProtonAOSP -->
