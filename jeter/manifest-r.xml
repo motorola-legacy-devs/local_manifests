@@ -18,6 +18,7 @@
   <project path="external/bson" name="android_external_bson" remote="lineageos" />
   <project path="hardware/motorola" name="android_hardware_motorola" remote="lineageos" />
   <project path="system/qcom" name="android_system_qcom" remote="lineageos" />
+  <project path="vendor/ih8sn" name="android_vendor_ih8sn" revision="jeter" remote="motolegacy" />
   <project path="vendor/lineage-priv/keys" name="android_vendor_signing_keys" revision="revived" remote="motolegacy" />
 
   <!-- ProtonAOSP -->
